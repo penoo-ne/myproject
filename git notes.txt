@@ -1,0 +1,67 @@
+//////////////learn git//////
+Git is a version control system that allows developers to track changes in their code.
+i downloaded=>git version 2.43.0.windows.1
+git config --global user.email "penoo8188@gmail.com"
+git config -- user.name "parveen"
+main branch name is master
+//////Creating Git Folder or repository
+mkdir myproject
+cd myproject
+/////Initialize Git
+1)git init
+open git with vscode and create a file index.html
+command=>touch index.html
+command=>git add index.html
+ create file(README.md)same as above 
+ create file(bluestyle.css)same as above
+2)git add -A(this command is used to add all files)
+3)git status
+4)git add .
+4)git commit -m
+///Viewing project history
+command=>git log
+command=>git log -p
+command=>git log --stat --summary
+///////To create a new branch named experimental, use
+command=>git branch experimental
+command=>git branch
+result=>experimental
+* master
+to access in experimental branch run a command
+command=>git switch experimental
+ ///////To merge the changes made in experimental into master, run
+command=>git merge experimental
+
+
+
+5)git remote add origin repoName
+6)git push origin master
+7)git clone repoName
+8)git pull origin master
+/////////Gitub
+GitHub is a web-based hosting service for git repositories.
+after registered at gitub i access at git dashboard now my main repository name is penoo-ne and i create a new repository which is myproject
+README file=>it contain detail of my project.
+https://github.com/penoo-ne/myproject
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
